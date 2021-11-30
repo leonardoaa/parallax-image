@@ -137,8 +137,8 @@ class _RenderParallax extends RenderProxyBox {
     ImageConfiguration configuration: ImageConfiguration.empty,
     RenderBox? child,
   })  : _image = image,
-        _scrollPosition = scrollPosition,
-        _screenSize = screenSize,
+        _scrollPosition = scrollPosition * 2,
+        _screenSize = screenSize * 2,
         _color = color,
         _configuration = configuration,
         super(child);
